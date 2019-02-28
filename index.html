@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/my_style.css"/>
+        <link rel="stylesheet" href="../team_profile/css/my_style.css"/>
+        <script src="js/jquery-3.3.1.min (1).js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/responsiv.js"></script>
+        </head>
+        <body class="container-fluid">
+            <section class="row justify-content-center form_wizard">
+                <div class="col-lg-6">
+                    <header class="container-fluid">
+                        <strong>
+                            Sign Up Your User Account
+                        </strong>
+                        <br/>
+                        <em>
+                            Fill all form field to go next step
+                        </em>
+                        <div class="row justify-content-between steps_header">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated">
+                                    
+                                </div>
+                            </div>
+                            <div class="step_item">
+                                <div class="step_item_activ">
+                                    <img src="img/user_icon.png"/>
+                                </div>
+                                <strong class="label">
+                                    About
+                                </strong>
+                            </div>
+                            <div class="step_item">
+                                <div class="step_item_disable">
+                                <img src="img/lock-24-512.png"/>
+                                </div>
+                                <strong class="label">
+                                    Personal
+                                </strong>
+                            </div>
+                            <div class="step_item">
+                                <div class="step_item_disable">
+                                    <img src="img/pay_86048.png"/>
+                                </div>
+                                <strong class="label">
+                                    Payment
+                                </strong>
+                            </div>
+                            <div class="step_item">
+                                <div class="step_item_disable">
+                                    <img src="img/confirm_70301.png"/>
+                                </div>
+                                <strong class="label">
+                                    Confirm
+                                </strong>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="container-fluid">
+                        <!-- about form -->
+                        <div class="row form_item form">
+                            <div class="col-lg">
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Enter your email" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Enter your user name" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-lock"></i>
+                                                </span>
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="Enter your password " aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-lock" style="margin-right: 5px"></i>
+                                                    <i class="fa fa-lock"></i>
+                                                </span>
+                                            </div>
+                                            <input type="password" class="form-control" placeholder="Verif your password " aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- information form -->
+                        <div class="row form_item form" style="display: none">
+                            <div class="col-lg">
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="First name" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Last name" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div style="padding-left: 15px;font-weight: bold;padding-top: 10px">
+                                        <label>
+                                        Date of birth:
+                                        </label>
+                                    </div>
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-birthday-cake"></i>
+                                                </span>
+                                            </div>
+                                            <input type="date" class="form-control" placeholder="Date of birth" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-phone"></i>
+                                                </span>
+                                            </div>
+                                            <input type="number" class="form-control" placeholder="Enter your phone number " aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-map-pin"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Enter your adress location " aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- payment form -->
+                        <div class="row form_item form" style="display: none">
+                            <div class="col-lg">
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="payement_div">
+                                            <img src="img/wizard_v3_icon_1.png"/>
+                                            <br/>
+                                            <em>
+                                                Credit Card 
+                                            </em>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg">
+                                        <div class="payement_div">
+                                        <img src="img/wizard_v3_icon_2.png"/>
+                                        <br/>
+                                        <em>
+                                            PayPal
+                                        </em>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Holder number" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="number" class="form-control" placeholder="Enter your phone number " aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-id-card"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Card number" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-id-card"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="CSV" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div style="padding-left: 15px;font-weight: bold;padding-top: 10px">
+                                        <label>
+                                        Expery date:
+                                        </label>
+                                    </div>
+                                    <div class="col-lg">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    <i class="fa fa-birthday-cake"></i>
+                                                </span>
+                                            </div>
+                                            <input type="date" class="form-control" placeholder="Date of birth" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- confirm form -->
+                        <div class="row form_item form" style="display: none">
+                        </div>
+                    </section>
+                    <footer class="row justify-content-end">
+                        <div>
+                            <input type="button" class="pre_step" value="previous step"/>
+                            <input type="button" class="nxt_step" value="next step"/>
+                            <input type="submit" class="submit_btn btn btn-danger" value="submit"/>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+           
+        </body>
+</html>
